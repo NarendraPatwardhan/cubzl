@@ -8,6 +8,6 @@ cuda_library(
 
 cc_binary(
     name = "matmul",
-    srcs = ["main.cpp"],
+    srcs = ["main.c"],
     deps = [":kernel"],
 )
