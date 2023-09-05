@@ -1,6 +1,11 @@
 # cubzl
 
-This repository aims to illustrate how to use [bazel](https://bazel.build/) to build a C++ project with CUDA support.
+This repository aims to illustrate how to use [bazel](https://bazel.build/) to
+build a Cxx project with CUDA support.
+
+This branch wraps the Cuda code (in C++) with `extern C` and uses a direct port
+of original `main.cpp` in the form of `main.c` to promote functional and
+cross-language use.
 
 To build the project, run:
 
